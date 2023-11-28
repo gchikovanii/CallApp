@@ -8,7 +8,7 @@ namespace CallApp.Infrastructure.Repositories.UserRepo
         Task<User> FindByEmailAsync(CancellationToken cancellationToken, string email);
         Task<User> GetUsersById(CancellationToken cancellationToken, int userId);
         Task CreateAsync(CancellationToken cancellationToken, User profile);
-        void Update(CancellationToken cancellationToken, User profile);
+        void Update(User profile);
         Task DeleteAsync(CancellationToken cancellationToken, int id);
         Task<bool> Exists(CancellationToken cancellationToken, string email);
     }

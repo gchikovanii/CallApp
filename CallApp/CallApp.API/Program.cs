@@ -3,7 +3,6 @@ using CallApp.Application.Infrastructure.Extension;
 using CallApp.Persistence.DataContext;
 using CallApp.Persistence.Store;
 using FluentValidation.AspNetCore;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 

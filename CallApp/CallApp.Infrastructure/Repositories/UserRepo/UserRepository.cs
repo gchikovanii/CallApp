@@ -36,9 +36,9 @@ namespace CallApp.Infrastructure.Repositories.UserRepo
         {
             await _repository.AddAsync(profile, cancellationToken);
         }
-        public void Update(CancellationToken cancellationToken, User profile)
+        public void Update(User profile)
         {
-            _repository.Update(profile, cancellationToken);
+            _repository.Update(profile);
         }
         public async Task DeleteAsync(CancellationToken cancellationToken, int id)
         {
@@ -48,7 +48,6 @@ namespace CallApp.Infrastructure.Repositories.UserRepo
         {
             return await _repository.AnyAsync(i => i.Email == email, cancellationToken);
         }
-
         
     }
 }

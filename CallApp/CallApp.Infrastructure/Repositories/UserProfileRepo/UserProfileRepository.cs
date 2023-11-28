@@ -21,18 +21,15 @@ namespace CallApp.Infrastructure.Repositories.UserRepo
 
         public async Task<UserProfile> GetUserProfileById(CancellationToken cancellationToken, int userId)
         {
-            var userProfile = await _repository.GetQuery(i => i.UserId == userId).SingleOrDefaultAsync(cancellationToken);
-            if (userProfile == null)
-                throw new NotFoundException(ErrorMessages.NotFound);
-            return userProfile; 
+            return await _repository.GetQuery(i => i.UserId == userId).SingleOrDefaultAsync(cancellationToken);
         }
         public async Task CreateAsync(CancellationToken cancellationToken, UserProfile profile)
         {
             await _repository.AddAsync(profile, cancellationToken);
         }
-        public void Update(CancellationToken cancellationToken, UserProfile profile)
+        public void Update(UserProfile profile)
         {
-            _repository.Update(profile, cancellationToken);
+            _repository.Update(profile);
         }
         public async Task DeleteAsync(CancellationToken cancellationToken, int id)
         {

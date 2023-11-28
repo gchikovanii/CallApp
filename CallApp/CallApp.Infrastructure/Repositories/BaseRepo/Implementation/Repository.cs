@@ -42,7 +42,7 @@ namespace CallApp.Infrastructure.Repositories.BaseRepo.Implementation
             var entity = await _dbSet.FindAsync(key, token);
             _dbSet.Remove(entity);
         }
-        public void Update(T entity, CancellationToken token)
+        public void Update(T entity)
         {
             if (entity == null)
                 return;

@@ -1,5 +1,4 @@
 ﻿using CallApp.Application.Commands.Accounts;
-using CallApp.Domain.Entities;
 using CallApp.Infrastructure.Globalization;
 using FluentValidation;
 
