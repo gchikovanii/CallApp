@@ -1,0 +1,17 @@
+CREATE DATABASE Management;
+
+CREATE TABLE User_Table (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Username VARCHAR(255) NOT NULL,
+    Password VARCHAR(255) NOT NULL,
+    Email VARCHAR(255) NOT NULL,
+    IsActive BIT NOT NULL,
+);
+
+CREATE TABLE UserProfile (
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    UserID INT UNIQUE,
+    FirstName CHAR(11) NOT NULL, 
+    LastName VARCHAR(255) NOT NULL,
+    FOREIGN KEY (UserID) REFERENCES User_Table(Id)
+);
