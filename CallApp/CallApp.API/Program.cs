@@ -1,4 +1,4 @@
-using CallApp.Infrastructure.DataContext;
+using CallApp.Persistence.DataContext;
 using CallApp.Persistence.Store;
 using Microsoft.EntityFrameworkCore;
 

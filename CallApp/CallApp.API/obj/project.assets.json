@@ -1063,9 +1063,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "CallApp.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "8.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
+          "CallApp.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CallApp.Infrastructure.dll": {}
@@ -1077,6 +1075,11 @@
       "CallApp.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CallApp.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
+        },
         "compile": {
           "bin/placeholder/CallApp.Persistence.dll": {}
         },

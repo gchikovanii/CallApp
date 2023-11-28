@@ -6,5 +6,6 @@
         public string Password { get; set; }
         public string Email { get; set; }
         public bool IsActive { get; set; }
+        public UserProfile UserProfile { get; set; }
     }
 }
