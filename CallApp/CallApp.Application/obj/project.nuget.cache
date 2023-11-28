@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "y2qvpbWSLyNmojLLMWtEWt73AEwP00scuA9r5a+Chd8cVl68JEkp1Rv6kxsBh4o3jh8MBHWyPxQdMlwY2tCF0g==",
+  "dgSpecHash": "DwmT80YeVYQQOerCyyKMAupt6xpawafUYxIgE0b8yVpEctmKd4vrDwhwOoWWS+xj+aW+5buB/xALsYt4W6rHYA==",
   "success": true,
   "projectFilePath": "D:\\CallApp\\CallApp\\CallApp.Application\\CallApp.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\gchik\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\gchik\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\gchik\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\gchik\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

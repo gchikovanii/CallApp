@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CallApp.Application\CallApp.Application.csproj" />
     <ProjectReference Include="..\CallApp.Infrastructure\CallApp.Infrastructure.csproj" />
     <ProjectReference Include="..\CallApp.Persistence\CallApp.Persistence.csproj" />
   </ItemGroup>
