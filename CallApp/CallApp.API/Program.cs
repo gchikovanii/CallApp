@@ -41,8 +41,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseGlobalExceptionHandler();
-app.UseAuthorization();
 app.UseAuthentication();
+app.UseAuthorization();
 app.UseCulture();
 app.MapControllers();
 #region AppRun

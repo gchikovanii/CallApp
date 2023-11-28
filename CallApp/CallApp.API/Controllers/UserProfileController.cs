@@ -14,28 +14,31 @@ namespace CallApp.API.Controllers
         {
             _mediator = mediator;
         }
-        //[Authorize]
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetUserProfiles(CancellationToken cancellationToken)
         {
             return Ok(await _mediator.Send(new GetUsersProfileQuery(), cancellationToken));
         }
-        //[Authorize]
+        [Authorize]
         [HttpGet("GetUsersProfile")]
         public async Task<IActionResult> GetUserProfile([FromQuery] GetUserProfileQuery query, CancellationToken cancellationToken)
         {
             return Ok(await _mediator.Send(query, cancellationToken));
         }
+        [Authorize]
         [HttpPost("CreateProfile")]
         public async Task<IActionResult> CreateProfile(CreateProfileCommand command, CancellationToken cancellationToken)
         {
             return Ok(await _mediator.Send(command, cancellationToken));
         }
+        [Authorize]
         [HttpPut("UpdateProfile")]
         public async Task<IActionResult> UpdateProfile(UpdateProfileCommand command, CancellationToken cancellationToken)
         {
             return Ok(await _mediator.Send(command, cancellationToken));
         }
+        [Authorize]
         [HttpDelete("DeleteProfile")]
         public async Task<IActionResult> DeleteProfile([FromForm] DeleteProfileCommand command, CancellationToken cancellationToken)
         {
