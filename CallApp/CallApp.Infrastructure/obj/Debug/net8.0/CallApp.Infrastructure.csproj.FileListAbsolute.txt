@@ -21,3 +21,5 @@ D:\CallApp\CallApp\CallApp.Infrastructure\obj\Debug\net8.0\CallApp.Infrastructur
 D:\CallApp\CallApp\CallApp.Infrastructure\obj\Debug\net8.0\CallApp.Infrastructure.Globalization.ErrorMessages.ka-GE.resources
 D:\CallApp\CallApp\CallApp.Infrastructure\obj\Debug\net8.0\CallApp.Infrastructure.csproj.GenerateResource.cache
 D:\CallApp\CallApp\CallApp.Infrastructure\obj\Debug\net8.0\ka-GE\CallApp.Infrastructure.resources.dll
+D:\CallApp\CallApp\CallApp.Infrastructure\obj\Debug\net8.0\CallApp.Infrastructure.Globalization.ValidationMessages.resources
+D:\CallApp\CallApp\CallApp.Infrastructure\obj\Debug\net8.0\CallApp.Infrastructure.Globalization.ValidationMessages.ka-GE.resources

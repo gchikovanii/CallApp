@@ -14,3 +14,8 @@ D:\CallApp\CallApp\CallApp.Application\bin\Debug\net8.0\CallApp.Domain.dll
 D:\CallApp\CallApp\CallApp.Application\bin\Debug\net8.0\CallApp.Domain.pdb
 D:\CallApp\CallApp\CallApp.Application\obj\Debug\net8.0\CallApp.Application.csproj.AssemblyReference.cache
 D:\CallApp\CallApp\CallApp.Application\obj\Debug\net8.0\CallApp.Application.csproj.CopyComplete
+D:\CallApp\CallApp\CallApp.Application\bin\Debug\net8.0\CallApp.Infrastructure.dll
+D:\CallApp\CallApp\CallApp.Application\bin\Debug\net8.0\CallApp.Persistence.dll
+D:\CallApp\CallApp\CallApp.Application\bin\Debug\net8.0\CallApp.Infrastructure.pdb
+D:\CallApp\CallApp\CallApp.Application\bin\Debug\net8.0\CallApp.Persistence.pdb
+D:\CallApp\CallApp\CallApp.Application\bin\Debug\net8.0\ka-GE\CallApp.Infrastructure.resources.dll

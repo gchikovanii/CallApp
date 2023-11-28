@@ -1,10 +1,10 @@
-﻿using CallApp.Infrastructure.Repositories.Abstraction;
+﻿using CallApp.Infrastructure.Repositories.BaseRepo.Abstraction;
 using CallApp.Persistence.DataContext;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
 
-namespace CallApp.Infrastructure.Repositories.Implementation
+namespace CallApp.Infrastructure.Repositories.BaseRepo.Implementation
 {
     public class Repository<T> : IRepository<T> where T : class
     {

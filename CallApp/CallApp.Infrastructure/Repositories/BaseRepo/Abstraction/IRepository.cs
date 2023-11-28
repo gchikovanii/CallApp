@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace CallApp.Infrastructure.Repositories.Abstraction
+namespace CallApp.Infrastructure.Repositories.BaseRepo.Abstraction
 {
     public interface IRepository<T> where T : class
     {

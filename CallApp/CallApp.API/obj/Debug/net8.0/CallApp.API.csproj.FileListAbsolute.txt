@@ -148,3 +148,16 @@ D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\CallApp.Application.dll
 D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\CallApp.Application.pdb
 D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\ka-GE\CallApp.Infrastructure.resources.dll
+D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\MediatR.dll
+D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\Serilog.dll
+D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
