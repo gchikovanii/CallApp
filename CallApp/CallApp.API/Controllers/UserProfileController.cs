@@ -14,8 +14,9 @@ namespace CallApp.API.Controllers
         {
             _mediator = mediator;
         }
+        
         [Authorize]
-        [HttpGet]
+        [HttpGet("GetUserProfiles")]
         public async Task<IActionResult> GetUserProfiles(CancellationToken cancellationToken)
         {
             return Ok(await _mediator.Send(new GetUsersProfileQuery(), cancellationToken));
