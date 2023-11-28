@@ -19,12 +19,12 @@ namespace CallApp.Infrastructure.Repositories.BaseRepo.Implementation
 
         public async Task<IEnumerable<T>> GetCollectionAsync(CancellationToken token, Expression<Func<T, bool>> expression = null)
         {
-            return expression == null ? await _context.Set<T>().ToListAsync(token).ConfigureAwait(false) : await _context.Set<T>().Where(expression).ToListAsync(token).ConfigureAwait(false);
+            return expression == null ? await _context.Set<T>().ToListAsync(token).ConfigureAwait(false) : await _context.Set<T>().Where(expression).AsNoTracking().ToListAsync(token).ConfigureAwait(false);
         }
 
         public IQueryable<T> GetQuery(Expression<Func<T, bool>> expression = null)
         {
-            return expression == null ? _context.Set<T>() : _context.Set<T>().Where(expression);
+            return expression == null ? _context.Set<T>() : _context.Set<T>().Where(expression).AsNoTracking();
         }
 
         public async Task AddAsync(T entity, CancellationToken token)
