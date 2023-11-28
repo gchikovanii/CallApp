@@ -1,8 +1,9 @@
+using CallApp.API.Infrastructure.Extensions;
 using CallApp.Persistence.DataContext;
 using CallApp.Persistence.Store;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
-
+using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 
 
@@ -17,6 +18,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 #region AddFluentValidation
 builder.Services.AddFluentValidation();
 #endregion
+#region Serilog
+builder.Host.UseSerilog((context, conf) =>
+conf.ReadFrom.Configuration(context.Configuration));
+#endregion
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -26,9 +31,18 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseGlobalExceptionHandler();
 app.UseAuthorization();
-
+app.UseCulture();
 app.MapControllers();
+#region AppRun
+try
+{
+    app.Run();
+}
+catch (Exception ex)
+{
+    Log.Fatal("Host Crashed! Exception: " + ex);
+}
+#endregion
 
-app.Run();

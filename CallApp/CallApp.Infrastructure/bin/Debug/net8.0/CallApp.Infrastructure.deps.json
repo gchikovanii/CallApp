@@ -13,6 +13,11 @@
         },
         "runtime": {
           "CallApp.Infrastructure.dll": {}
+        },
+        "resources": {
+          "ka-GE/CallApp.Infrastructure.resources.dll": {
+            "locale": "ka-GE"
+          }
         }
       },
       "Azure.Core/1.25.0": {

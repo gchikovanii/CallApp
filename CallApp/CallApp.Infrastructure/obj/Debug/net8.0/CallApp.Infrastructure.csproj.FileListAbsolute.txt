@@ -16,3 +16,8 @@ D:\CallApp\CallApp\CallApp.Infrastructure\obj\Debug\net8.0\CallApp.Infrastructur
 D:\CallApp\CallApp\CallApp.Infrastructure\obj\Debug\net8.0\ref\CallApp.Infrastructure.dll
 D:\CallApp\CallApp\CallApp.Infrastructure\bin\Debug\net8.0\CallApp.Persistence.dll
 D:\CallApp\CallApp\CallApp.Infrastructure\bin\Debug\net8.0\CallApp.Persistence.pdb
+D:\CallApp\CallApp\CallApp.Infrastructure\bin\Debug\net8.0\ka-GE\CallApp.Infrastructure.resources.dll
+D:\CallApp\CallApp\CallApp.Infrastructure\obj\Debug\net8.0\CallApp.Infrastructure.Globalization.ErrorMessages.resources
+D:\CallApp\CallApp\CallApp.Infrastructure\obj\Debug\net8.0\CallApp.Infrastructure.Globalization.ErrorMessages.ka-GE.resources
+D:\CallApp\CallApp\CallApp.Infrastructure\obj\Debug\net8.0\CallApp.Infrastructure.csproj.GenerateResource.cache
+D:\CallApp\CallApp\CallApp.Infrastructure\obj\Debug\net8.0\ka-GE\CallApp.Infrastructure.resources.dll

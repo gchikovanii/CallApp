@@ -146,3 +146,5 @@ D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\CallApp.Application.dll
 D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\CallApp.Application.pdb
+D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\CallApp\CallApp\CallApp.API\bin\Debug\net8.0\ka-GE\CallApp.Infrastructure.resources.dll

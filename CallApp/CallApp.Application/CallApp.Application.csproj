@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CallApp.Domain\CallApp.Domain.csproj" />
+    <ProjectReference Include="..\CallApp.Infrastructure\CallApp.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
