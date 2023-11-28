@@ -1,16 +1,19 @@
 using CallApp.API.Infrastructure.Extensions;
+using CallApp.Application.Infrastructure.Extension;
 using CallApp.Persistence.DataContext;
 using CallApp.Persistence.Store;
 using FluentValidation.AspNetCore;
-using MediatR;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
-using System.Reflection;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddServices();
 builder.Services.AddCustomSwagger();
 builder.Services.AddJwt(builder.Configuration);
 #region Sql Connection
@@ -26,7 +29,7 @@ builder.Host.UseSerilog((context, conf) =>
 conf.ReadFrom.Configuration(context.Configuration));
 #endregion
 #region MediatR
-builder.Services.AddMediatR(i => i.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
 #endregion
 
 var app = builder.Build();

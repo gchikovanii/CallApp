@@ -1,11 +1,12 @@
-﻿using CallApp.Domain.Entities;
+﻿using CallApp.Application.Commands.Accounts;
+using CallApp.Domain.Entities;
 using CallApp.Infrastructure.Globalization;
 using FluentValidation;
 
 
 namespace CallApp.Application.Infrastructure.Validators.UserProfiles
 {
-    public class UserValidator : AbstractValidator<User>
+    public class UserValidator : AbstractValidator<RegistrationCommand>
     {
         public UserValidator()
         {

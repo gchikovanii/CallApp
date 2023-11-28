@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LUegGAMXu0CNecmnVXTGuE5DuORHBv2aj+JdYiIKAxYH0uF5qgMH/mEOG/SeapZ8/LR/mS2WgZ6C4dLN7gYJyw==",
+  "dgSpecHash": "oGQnBCgMENOMrLORVBPCgBlzcszhNX9KuLWJDueDn75llSeGVSfKxhadPyP5fLZCGmqj99WxPT5bpOX9XI2UDg==",
   "success": true,
   "projectFilePath": "D:\\CallApp\\CallApp\\CallApp.Application\\CallApp.Application.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "C:\\Users\\gchik\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\gchik\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\gchik\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\gchik\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\gchik\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\gchik\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\gchik\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\gchik\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

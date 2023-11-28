@@ -4,7 +4,8 @@ namespace CallApp.Infrastructure.Repositories.UserRepo
 {
     public interface IUserRepository
     {
-        Task<List<User>> GetAllUsers(CancellationToken cancellationToken);
+        Task<List<User>> GetAllUsers(CancellationToken cancellationToken); 
+        Task<User> FindByEmailAsync(CancellationToken cancellationToken, string email);
         Task<User> GetUsersById(CancellationToken cancellationToken, int userId);
         Task CreateAsync(CancellationToken cancellationToken, User profile);
         void Update(CancellationToken cancellationToken, User profile);

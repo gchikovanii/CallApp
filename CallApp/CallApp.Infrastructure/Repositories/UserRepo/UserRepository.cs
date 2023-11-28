@@ -25,6 +25,13 @@ namespace CallApp.Infrastructure.Repositories.UserRepo
                 throw new NotFoundException(ErrorMessages.NotFound);
             return user;
         }
+        public async Task<User> FindByEmailAsync(CancellationToken cancellationToken, string email)
+        {
+            var user = await _repository.GetQuery(i => i.Email == email).SingleOrDefaultAsync(cancellationToken);
+            if (user == null)
+                throw new NotFoundException(ErrorMessages.NotFound);
+            return user;
+        }
         public async Task CreateAsync(CancellationToken cancellationToken, User profile)
         {
             await _repository.AddAsync(profile, cancellationToken);
@@ -42,8 +49,6 @@ namespace CallApp.Infrastructure.Repositories.UserRepo
             return await _repository.AnyAsync(i => i.Email == email, cancellationToken);
         }
 
-     
-
-      
+        
     }
 }
