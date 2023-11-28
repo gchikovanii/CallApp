@@ -1,7 +1,7 @@
-#CallApp User Management Task
+# CallApp User Management Task
 This repository showcases the completion of a task, using ASP.NET Core.
 
-#Implemented Features
+# Implemented Features
 User Code First Approach: Implemented EF Core (code-first database development).
 Repository Pattern: Implemented a structured repository pattern to enhance data management.
 JWT Bearer Authentication: Users can securely log in and register, ensuring controlled access to specific functionalities.
