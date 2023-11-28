@@ -1,0 +1,12 @@
+D:\CallApp\CallApp\CallApp.Application\bin\Debug\net8.0\CallApp.Application.deps.json
+D:\CallApp\CallApp\CallApp.Application\bin\Debug\net8.0\CallApp.Application.dll
+D:\CallApp\CallApp\CallApp.Application\bin\Debug\net8.0\CallApp.Application.pdb
+D:\CallApp\CallApp\CallApp.Application\obj\Debug\net8.0\CallApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\CallApp\CallApp\CallApp.Application\obj\Debug\net8.0\CallApp.Application.AssemblyInfoInputs.cache
+D:\CallApp\CallApp\CallApp.Application\obj\Debug\net8.0\CallApp.Application.AssemblyInfo.cs
+D:\CallApp\CallApp\CallApp.Application\obj\Debug\net8.0\CallApp.Application.csproj.CoreCompileInputs.cache
+D:\CallApp\CallApp\CallApp.Application\obj\Debug\net8.0\CallApp.Application.sourcelink.json
+D:\CallApp\CallApp\CallApp.Application\obj\Debug\net8.0\CallApp.Application.dll
+D:\CallApp\CallApp\CallApp.Application\obj\Debug\net8.0\refint\CallApp.Application.dll
+D:\CallApp\CallApp\CallApp.Application\obj\Debug\net8.0\CallApp.Application.pdb
+D:\CallApp\CallApp\CallApp.Application\obj\Debug\net8.0\ref\CallApp.Application.dll

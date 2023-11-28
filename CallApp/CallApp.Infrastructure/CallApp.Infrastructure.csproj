@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CallApp.Domain\CallApp.Domain.csproj" />
+    <ProjectReference Include="..\CallApp.Persistence\CallApp.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

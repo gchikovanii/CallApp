@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PvY9dxE2IiaOEUUVKaRrlFtWBlpTumHGRWWmlxX5IVM=",
+  "Source": "CallApp.API",
+  "BasePath": "_content/CallApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
